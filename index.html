@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <!-- the row on top of the navbar -->
+    <div class="top" id="header">
+      <!-- truck image -->
+      <p class="header_truck">
+        <img class="truck" src="img/truck.png"/>FREE SHIPPING ON ALL ORDERS WORLD WIDE !
+      </p>
+      <!-- Account dropdown button -->
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">ACCOUNT
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Logout</a></li>
+          <li class="divider"></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end of row -->
+
+    <!-- Navbar -->
+    <div id="wrapper">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Brand name logo -->
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+          <!-- navigation though site -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">OUR STORY</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">HELP</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+            <!-- Cart -->
+            <div class="btn-group btn-group-xs">
+              <button type="button" class="btn btn-default">
+                <div class="bag" >
+                  <img src="img/bag.png" alt="bag">
+                </div>
+              </button>
+              <div class="bag-text">  
+                <!-- the 2 should be replace by PHP or Ruby -->
+                <span class="divider" >&nbsp (2) Items in this bag</span>
+              </div>
+            </div>
+          </div>
+      </nav>
+      <!-- end of navbar -->
+
+      <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="" alt="">
+          </div>
+          <div class="item">
+            <img src="" alt="">
+          </div>
+          <div class="item">
+            <img src="" alt="">
+          </div>
+          <div class="item">
+            <img src="" alt="">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <div class="left carousel-control" href="#myCarousel"  data-slide="prev">
+            <img src="img/left_arrow.png" />
+        </div>
+        <div class="right carousel-control" href="#myCarousel"  data-slide="next">
+            <img src="img/right_arrow.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Orange promotion bar -->
+    <div class="promotion">
+      <h3>P R O M O T I O N</h3>
+    </div>
+
+    <!-- articles -->
+    <div class="grid">
+      <!-- set 3 columns -->
+      <div class="col-md-4">
+        <article class="news">
+          <!-- image would go here -->
+          <img src="" alt="" class="img-size"/>
+          <h4 class="title">INFO</h4>
+          <p class="description">
+            Lorem ipsumdolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy 
+            nibh <br> euismod tincidunt ut laoreet dolore <br> magna aliquam erat volutpat.
+          </p>
+          <div class="wrapper">
+            <button class="btn" type="button">Learn More</button>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="news">
+          <img src="" alt="" class="img-size"/>
+          <h4 class="title">INFO</h4>
+          <p class="description">
+            Lorem ipsumdolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy 
+            nibh <br> euismod tincidunt ut laoreet dolore <br> magna aliquam erat volutpat.
+          </p>
+          <div class="wrapper">
+            <button class="btn" type="button">Learn More</button>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="news">
+          <img src="" alt="" class="img-size"/>
+          <h4 class="title">INFO</h4>
+          <p class="description">
+            Lorem ipsumdolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy 
+            nibh <br> euismod tincidunt ut laoreet dolore <br> magna aliquam erat volutpat.
+          </p>
+          <div class="wrapper">
+            <button class="btn" type="button">Learn More</button>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- empty gray space -->
+    <div class="empty-space">
+      <img src="" class="empty-space-image"/>
+    </div>
+
+    <!-- start of footer -->
+    <footer class="footer-info">
+      <!-- facebook promo box -->
+      <div class="promo-box">
+        <h2><a href="#" style="color: #f06b20;">LIKE US</a> ON FACEBOOK FOR EXCLUSIVE OFFERS AND DEALS</h2>
+      </div>
+      <!-- footer navbar -->
+      <div class="navbar footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h4>About Us</h4>
+              <ul class="footer-list">
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Payment & Pricing</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Exchange Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h4>Need Help?</h4>
+              <ul class="footer-list">
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Videos</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h4>Why US ?</h4>
+              <ul class="footer-list">
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Payments & Pricing</a></li>
+                <li><a href="#">Refund Pricing</a></li>
+                <li><a href="#">Exchange Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h4>Stay Connected</h4>
+              <!-- input form -->
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="example@gmail.com">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">GO</button>
+                </span>
+              </div>
+              <!-- the icons -->
+              <ul class="icons">
+                <li>
+                  <a href="#">
+                    <img src="img/twitter.png" alt="Twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/facebook.png" alt="Facebook">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/pinterest.png" alt="Pinterest">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/youtube.png" alt="Youtube">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+    </body>
+</html>
